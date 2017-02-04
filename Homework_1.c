@@ -5,7 +5,7 @@
 signed char reverse(char * str, int length);
 uint8_t length(char*str);
 //int b=10;
-uint8_t Le
+uint8_t Length =17;
 int main()
 {
     uint8_t len;
