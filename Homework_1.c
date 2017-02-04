@@ -5,13 +5,13 @@
 signed char reverse(signed char * str, uint8_t length);
 uint8_t leng(char*str);
 //int b=10;
-uint8_t Length=17;
+uint8_t Length=18;
 
 
 int main()
 {
     uint8_t len;
-	signed char A[]="This is a string";
+	signed char A[]="some NUMmbers12345";
 
 	len=leng(&A);
 
