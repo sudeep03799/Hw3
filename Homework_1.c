@@ -5,13 +5,13 @@
 signed char reverse(signed char * str, uint8_t length);
 uint8_t leng(char*str);
 //int b=10;
-uint8_t Length=18;
+uint8_t Length=30;
 
 
 int main()
 {
     uint8_t len;
-	signed char A[]="some NUMmbers12345";
+	signed char A[]="Does it reverse \n\0\t correctly?";
 
 	len=leng(&A);
 
@@ -46,7 +46,7 @@ uint8_t leng(char*str)
 signed char reverse(signed char * str, uint8_t length)
 {
     //if (length>0)
-    if (length<=Length)
+    /*if (length<=Length)
     {
 
 
@@ -68,9 +68,9 @@ signed char reverse(signed char * str, uint8_t length)
         //printf("fail\n");
     //else
 	//
-    else
-    {
-
+   // else
+    //{
+*/
 	for (uint8_t i=0; i<(Length); i++)
 	{
 
@@ -85,7 +85,7 @@ signed char reverse(signed char * str, uint8_t length)
     *(str+(Length-1))=*str;
     printf("%c",*(str+(Length-1)));
 
-	}
+
 
 	putchar ('\n');
     return '0';
